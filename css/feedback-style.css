@@ -1,137 +1,134 @@
 @charset "utf-8" ;
 
-  body {
-    background: linear-gradient(to right, #e8b9cb 0%, #e8b9cd 100%);
-    font-size: 12px;
-  }
+body {
+  background: linear-gradient(to right, #e8b9cb 0%, #e8b9cd 100%);
+  font-size: 12px;
+}
   
-  body, button, input {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-  }
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
   
-  .background {
-    display: flex;
-    min-height: 100vh;
-  }
+.background {
+  display: flex;
+  min-height: 100vh;
+}
   
-  .container {
-    flex: 0 1 700px;
-    margin: auto;
-    padding: 10px;
-  }
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
   
-  .screen {
-    position: relative;
-    background: #ffff;
-    border-radius: 15px;
-  }
+.screen {
+  position: relative;
+  background: #ffff;
+  border-radius: 15px;
+}
   
-  .screen:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 20px;
-    right: 20px;
-    bottom: 0;
-    border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
-    z-index: -1;
-  }
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
   
-  .screen-header {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background: #ffff;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #ffff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
   
-  .screen-header-left {
-    margin-right: auto;
-  }
+.screen-header-left {
+  margin-right: auto;
+}
   
-  .screen-header-button {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin-right: 3px;
-    border-radius: 8px;
-    background: white;
-  }
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
   
-  .screen-header-button.close {
-    background: #ed1c6f;
-  }
+.screen-header-button.close {
+  background: #ed1c6f;
+}
   
-  .screen-header-button.maximize {
-    background: #e8e925;
-  }
+.screen-header-button.maximize {
+  background: #e8e925;
+}
   
-  .screen-header-button.minimize {
-    background: #74c54f;
-  }
+.screen-header-button.minimize {
+  background: #74c54f;
+}
   
-  .screen-header-right {
-    display: flex;
-  }
+.screen-header-right {
+  display: flex;
+}
   
-  .screen-header-ellipsis {
-    width: 3px;
-    height: 3px;
-    margin-left: 2px;
-    border-radius: 8px;
-    background: #999;
-  }
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
   
-  .screen-body {
-    display: flex;
-  }
+.screen-body {
+  display: flex;
+}
   
-  .screen-body-item {
-    flex: 1;
-    padding: 50px;
-  }
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
   
-  .screen-body-item.left {
-    display: flex;
-    flex-direction: column;
-  }
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
   
-  .app-title {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    color: #e8b9cb;
-    font-size: 26px;
-  }
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #e8b9cb;
+  font-size: 26px;
+}
   
-  .app-title:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 25px;
-    height: 4px;
-    background: #e8b9cb;
-  }
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #e8b9cb;
+}
 
+.app-form-group {
+  margin-bottom: 15px;
+}
   
-  .app-form-group {
-    margin-bottom: 15px;
-  }
+.app-form-group.message {
+  margin-top: 40px;
+}
   
-  .app-form-group.message {
-    margin-top: 40px;
-  }
-  
-  .app-form-group.buttons {
-    margin-bottom: 0;
-    text-align: right;
-  }
-
-  
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+} 
